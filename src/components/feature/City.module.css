@@ -1,0 +1,29 @@
+.city {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.city-items {
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.city-images {
+  width: 100%;
+  object-fit: cover;
+}
+
+.city-items__title {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  font-size: 1.6rem;
+}

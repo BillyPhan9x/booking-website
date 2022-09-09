@@ -1,0 +1,16 @@
+.header-search__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-search__item input {
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.header-search__item span {
+  color: gray;
+}

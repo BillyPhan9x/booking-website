@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #003589;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1024px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list li {
+  margin: 15px;
+}
+
+.footer-list__item {
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer-list__item:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}

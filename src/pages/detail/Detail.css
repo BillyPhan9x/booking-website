@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-hotel {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.detail-container {
+  width: 100%;
+  max-width: 1024px;
+  margin-bottom: 20px;
+}
