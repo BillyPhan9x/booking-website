@@ -24,6 +24,10 @@ function DateCheckIn() {
     },
   ]);
 
+  const handleChangeDate = (item) => {
+    setDate([item.selection]);
+  };
+
   return (
     <div className="header-search__item">
       <i className="fa fa-calendar"></i>
@@ -39,7 +43,7 @@ function DateCheckIn() {
           editableDateInputs={true}
           moveRangeOnFirstSelection={false}
           minDate={new Date()}
-          onChange={(item) => setDate([item.selection])}
+          onChange={handleChangeDate}
           ranges={date}
         />
       )}

@@ -29,7 +29,6 @@
 .popup-date,
 .popup-items > input {
   font-size: 16px;
-
   padding: 10px;
   background-color: #fff;
   border: none;
@@ -47,7 +46,7 @@
 }
 
 .popup-option > input {
-  width: 50px;
+  width: 60px;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid gray;

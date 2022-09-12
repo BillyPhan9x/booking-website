@@ -1,5 +1,6 @@
 import NavBar from "../../components/navbar/NavBar";
 import Header from "../../components/header/Header";
+
 import City from "../../components/feature/City";
 import Type from "../../components/feature/Type";
 import Hotels from "../../components/feature/Hotels";

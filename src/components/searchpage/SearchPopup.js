@@ -9,10 +9,16 @@ const SearchPopup = () => {
   // khai báo sử dụng vị trí với giá trị móc(hooks) vị trí
   const location = useLocation();
   const [destination, setDestination] = useState(location.state.destination);
+  const [options, setOptions] = useState(location.state.options);
   // console.log(location);
 
   const clickSearchHandle = (e) => {
-    console.log(e.target);
+    // console.log(e.target);
+  };
+
+  const handleSearchOptions = (e) => {
+    // console.log(e.target.value);
+    setOptions(e.target.value);
   };
 
   return (
@@ -34,27 +40,48 @@ const SearchPopup = () => {
         <label>Options</label>
         <div className="popup-option">
           <span>
-            Min price <small>per night</small>
+            Min price
+            <small>
+              per night <b style={{ color: "blue" }}>($)</b>
+            </small>
           </span>
           <input type="number" placeholder="" />
         </div>
         <div className="popup-option">
           <span>
-            Max price <small>per night</small>
+            Max price
+            <small>
+              per night <b style={{ color: "blue" }}>($)</b>
+            </small>
           </span>
           <input type="number" placeholder="" />
         </div>
         <div className="popup-option">
           <span>Adult</span>
-          <input type="number" min={1} placeholder="1" />
+          <input
+            type="number"
+            min={1}
+            placeholder={options.adult}
+            onChange={handleSearchOptions}
+          />
         </div>
         <div className="popup-option">
           <span>Children</span>
-          <input type="number" min={0} placeholder="0" />
+          <input
+            type="number"
+            min={0}
+            placeholder={options.children}
+            onChange={handleSearchOptions}
+          />
         </div>
         <div className="popup-option">
           <span>Room</span>
-          <input type="number" min={1} placeholder="1" />
+          <input
+            type="number"
+            min={1}
+            placeholder={options.room}
+            onChange={handleSearchOptions}
+          />
         </div>
         <button className="popup-btn" onClick={clickSearchHandle}>
           Search
