@@ -2,7 +2,7 @@
   "name": "booking",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://billyPhan9x.githup.io/booking-website",
+  "homepage": "https://billyPhan9x.githup.io/booking-website/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
