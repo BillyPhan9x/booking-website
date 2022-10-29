@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/BillyPhan9x.githup.io/booking-website/static/css/main.ebca389d.css",
-    "main.js": "/BillyPhan9x.githup.io/booking-website/static/js/main.72ff7704.js",
-    "index.html": "/BillyPhan9x.githup.io/booking-website/index.html",
-    "main.ebca389d.css.map": "/BillyPhan9x.githup.io/booking-website/static/css/main.ebca389d.css.map",
-    "main.72ff7704.js.map": "/BillyPhan9x.githup.io/booking-website/static/js/main.72ff7704.js.map"
+    "main.css": "/react-bookingwebsite/static/css/main.ebca389d.css",
+    "main.js": "/react-bookingwebsite/static/js/main.72ff7704.js",
+    "index.html": "/react-bookingwebsite/index.html",
+    "main.ebca389d.css.map": "/react-bookingwebsite/static/css/main.ebca389d.css.map",
+    "main.72ff7704.js.map": "/react-bookingwebsite/static/js/main.72ff7704.js.map"
   },
   "entrypoints": [
     "static/css/main.ebca389d.css",
